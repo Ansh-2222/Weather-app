@@ -67,7 +67,8 @@ export default function SearchBox({ updateinfo }) {
                     variant="outlined"
                     required
                     value={city}
-                    onChange={handleChange} />
+                    onChange={handleChange}
+                    style={{backgroundColor:"white  "}} />
                 <br></br>
                 <br></br>
 
